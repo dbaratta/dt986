@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About this app
+This app is the 98point6 Drop Token demo app. It is a Rails API only app backed by Mongoid & MongoDB.
 
-Things you may want to cover:
+## How to run
+This app is dockerized. To run simply pull this repo and then run the following commands:
+```
+docker-compose build
+docker-compose up
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+After running `docker-compose up` the API should be avaiable on `http://localhost:3000`
